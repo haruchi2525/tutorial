@@ -12,10 +12,10 @@
   width: 100px;
   height: 100px;
   padding: 10px;
-  background-color: #808080;
+  background-color: #e3e3e3;
 }
 .containerText {
-  color: #fff;
+  color: #484848;
 }
 
 @media screen and (min-width: 796px) {
@@ -25,37 +25,37 @@
     margin: 0 auto;
   }
   .header {
-    background-color: #141f40;
+    background-color: #275dff;
   }
   .container {
     display: flex;
   }
   .aside {
     width: 150px;
-    background-color: #80bfa8;
+    background-color: #b9e9ff;
   }
   .article {
     width: 250px;
-    background-color: #8c2727;
+    background-color: #62b9ee;
   }
   .containerBox:not(:first-child) {
     margin-top: 10px;
   }
   .footer {
-    background-color: #d98d30;
+    background-color: #0c44b5;
   }
 }
 
 @media screen and (max-width: 795px) {
   /* sp用スタイル */
   .header {
-    background-color: #e91e63;
+    background-color: #ffa1f3;
   }
   .aside {
-    background-color: #0093b7;
+    background-color: #ffe3f8;
   }
   .article {
-    background-color: #dbd400;
+    background-color: #ff9fd4;
   }
   .articleContainer {
     display: flex;
@@ -64,6 +64,6 @@
     margin-left: 10px;
   }
   .footer {
-    background-color: #170e38;
+    background-color: #fd52b6;
   }
 }
