@@ -1,0 +1,69 @@
+/* 共通スタイルは外に書く */
+.header,
+.footer {
+  height: 100px;
+}
+.aside,
+.article {
+  height: 400px;
+  padding: 10px;
+}
+.containerBox {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: #808080;
+}
+.containerText {
+  color: #fff;
+}
+
+@media screen and (min-width: 796px) {
+  /* pc用スタイル */
+  .wrapper {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .header {
+    background-color: #141f40;
+  }
+  .container {
+    display: flex;
+  }
+  .aside {
+    width: 150px;
+    background-color: #80bfa8;
+  }
+  .article {
+    width: 250px;
+    background-color: #8c2727;
+  }
+  .containerBox:not(:first-child) {
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: #d98d30;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+  .header {
+    background-color: #e91e63;
+  }
+  .aside {
+    background-color: #0093b7;
+  }
+  .article {
+    background-color: #dbd400;
+  }
+  .articleContainer {
+    display: flex;
+  }
+  .containerBox:not(:first-child) {
+    margin-left: 10px;
+  }
+  .footer {
+    background-color: #170e38;
+  }
+}
